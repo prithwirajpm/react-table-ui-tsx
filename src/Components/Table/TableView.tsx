@@ -21,7 +21,6 @@ const TableView: React.FC<TableViewProps> = ({ headers, data }) => {
         <div>
           <TableFilter />
         </div>
-
         <table className="Table_view">
           <TableHeader headers={headers} />
           <TableBody data={data} columns={headers} />

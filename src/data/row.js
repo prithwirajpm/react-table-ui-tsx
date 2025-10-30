@@ -1,0 +1,77 @@
+export const data = [
+  {
+    name: { label: "John Doe", username: "@johndoe", icon: "👤" },
+    status: [
+      { label_name: "Active", color: "#17B26A", key: "active" },
+      { label_name: "Active", color: "#17B26A", key: "active" },
+    ],
+    role: "Developer",
+    email: "john@example.com",
+    teams: [{ label: "Design", color: "#E9D7FE", key: "design" }],
+  },
+  {
+    name: { label: "Priya Menon", username: "@priyamenon", icon: "👩‍💻" },
+    status: [{ label_name: "Inactive", color: "#FF9500", key: "inactive" }],
+    role: "Designer",
+    email: "priya@example.com",
+    teams: [{ label: "Product", color: "#B2DDFF", key: "product" }],
+  },
+  {
+    name: { label: "Ali Rahman", username: "@alir", icon: "👨‍💼" },
+    status: [{ label_name: "Away", color: "#FFCC00", key: "away" }],
+    role: "Manager",
+    email: "ali@example.com",
+    teams: [{ label: "Marketing", color: "#C7D7FE", key: "marketing" }],
+  },
+  {
+    name: { label: "Sara Khan", username: "@sarak", icon: "👩‍🎨" },
+    status: [
+      { label_name: "Do Not Disturb", color: "#FF2D55", key: "donotdisplay" },
+    ],
+    role: "HR",
+    email: "sara@example.com",
+    teams: [{ label: "Design", color: "#E9D7FE", key: "design" }],
+  },
+  {
+    name: { label: "David Paul", username: "@davidp", icon: "👨‍🔧" },
+    status: [{ label_name: "Active", color: "#17B26A", key: "active" }],
+    role: "QA Engineer",
+    email: "david@example.com",
+    teams: [{ label: "Product", color: "#B2DDFF", key: "product" }],
+  },
+  {
+    name: { label: "Lina George", username: "@linag", icon: "👩‍🏫" },
+    status: [{ label_name: "Terminate", color: "#FF3B30", key: "terminate" }],
+    role: "Team Lead",
+    email: "lina@example.com",
+    teams: [{ label: "Marketing", color: "#C7D7FE", key: "marketing" }],
+  },
+  {
+    name: { label: "Kumar Raj", username: "@kumarraj", icon: "👨‍💻" },
+    status: [{ label_name: "Inactive", color: "#FF9500", key: "inactive" }],
+    role: "DevOps",
+    email: "kumar@example.com",
+    teams: [{ label: "Design", color: "#E9D7FE", key: "design" }],
+  },
+  {
+    name: { label: "Meera Thomas", username: "@meerat", icon: "👩‍💼" },
+    status: [{ label_name: "Active", color: "#17B26A", key: "active" }],
+    role: "UI/UX",
+    email: "meera@example.com",
+    teams: [{ label: "Product", color: "#B2DDFF", key: "product" }],
+  },
+  {
+    name: { label: "Tom Hardy", username: "@tomh", icon: "👨‍🎓" },
+    status: [{ label_name: "Away", color: "#FFCC00", key: "away" }],
+    role: "Intern",
+    email: "tom@example.com",
+    teams: [{ label: "Design", color: "#E9D7FE", key: "design" }],
+  },
+  {
+    name: { label: "Ravi Nair", username: "@ravin", icon: "👨‍🎓" },
+    status: [{ label_name: "Busy", color: "#007AFF", key: "busy" }],
+    role: "Support",
+    email: "ravi@example.com",
+    teams: [{ label: "Marketing", color: "#C7D7FE", key: "marketing" }],
+  },
+];

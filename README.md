@@ -44,3 +44,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## About Project
+
+In this project, I have created a TableProvider using React Context API to share state values across reusable table components.
+Currently, I’m passing only a boolean value (true/false) through the context —
+but this value is not reaching the child components like <TableHead />, <TableBody />, <TableFooter />, or <TableFilter />.
+
+The main purpose of this setup is to make the table structure fully reusable,
+
+The TableView component works as the main parent,
+and inside it, I have added these subcomponents:
+
+<TableHead />
+
+<TableBody />
+
+<TableFooter />
+
+<TableFilter />
+
+🧠 Current Issue
+
+Context API is successfully created but the boolean value is not passing correctly to child components.
+
+The value (true or false) does not update or reflect inside subcomponents using useContext().

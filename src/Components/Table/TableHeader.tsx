@@ -21,6 +21,7 @@ const TableHeader: React.FC<TableHeaderProps> = ({ headers }) => {
             {head.label}
           </th>
         ))}
+        <th className="table_header"></th>
       </tr>
     </thead>
   );

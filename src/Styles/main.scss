@@ -79,10 +79,13 @@
 
 .Footer_pagination {
   display: flex;
-  justify-content: end;
+  gap: 20px;
   padding: 10px 0px;
-  width: 100%;
   button {
     @include buttonstyle;
   }
+}
+
+.actionbutton {
+  @include buttonstyle;
 }
