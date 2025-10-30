@@ -47,6 +47,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## About Project
 
+## install libary
+
+sass
+scss
+react-luied
+
 In this project, I have created a TableProvider using React Context API to share state values across reusable table components.
 Currently, I’m passing only a boolean value (true/false) through the context —
 but this value is not reaching the child components like <TableHead />, <TableBody />, <TableFooter />, or <TableFilter />.
@@ -64,7 +70,7 @@ and inside it, I have added these subcomponents:
 
 <TableFilter />
 
-🧠 Current Issue
+Current Issue
 
 Context API is successfully created but the boolean value is not passing correctly to child components.
 
