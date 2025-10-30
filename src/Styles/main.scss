@@ -1,0 +1,88 @@
+@import "./variables";
+@import "./mixins";
+
+.Table_view {
+  width: 100%;
+  text-align: "left";
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: $table_border_radious;
+  overflow: hidden;
+  @include border;
+}
+
+.table_header {
+  background-color: $table_pri_color;
+  @include cellBorder;
+  @include headingFontSize;
+}
+
+.table_body {
+  td {
+    padding: 8px;
+    @include cellBorder;
+  }
+}
+
+.tabels_cell_border {
+  @include border;
+  padding: 0px 3px;
+  font-size: 12px;
+}
+
+.status_dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.table_view_outside {
+  padding: 3rem;
+  margin: 1rem;
+  @include border;
+  overflow-x: auto;
+}
+
+.filter_align {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 0px;
+  .serach_postion_parent {
+    position: relative;
+
+    input {
+      padding: 5px 10px 5px 22px;
+      @include border;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .search_icon {
+      position: absolute;
+      top: 50%;
+      left: 1px;
+      transform: translateY(-50%);
+      @include svgImag;
+    }
+  }
+
+  button {
+    @include buttonstyle;
+  }
+}
+
+.Footer_pagination {
+  display: flex;
+  justify-content: end;
+  padding: 10px 0px;
+  width: 100%;
+  button {
+    @include buttonstyle;
+  }
+}
